@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+main {
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: goldenrod;
+    background-color: black;
+}
+
+.contentParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.optionsParent {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.optionsInputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.backgroundDiv {
+    width: 900px;
+    height: 450px;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.characterImage {
+    position: relative;
+    top: 70px;
+    width: 100px;
+    height: 150px;
+}

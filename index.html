@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elden Ring Image Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Elden Ring Image Generator</h1>
+        <div class="mainImageParent">
+                <div class="backgroundDiv" id="backgroundDiv">
+                    <img class="characterImage" id="characterImage" src="images/character_images/samurai.png">
+                </div>
+            <div class="optionsParent">
+                <div class="optionsInputs">
+                    <label for="characterSelect">Select Character:</label>
+                    <select id="characterSelect" style="width: 200px;">
+                        <option value="alberich">Alberich</option>
+                        <option value="astrologer">Astrologer</option>
+                        <option value="bandit">Bandit</option>
+                        <option value="banished_knight">Banished Knight</option>
+                        <option value="battlemage">Battlemage</option>
+                        <option value="black_knife">Black Mage</option>
+                        <option value="blackflame_monk">Blackflame Monk</option>
+                        <option value="bloodhound_knight">Bloodhound Knight</option>
+                        <option value="bloodsoaked_man">Bloodsoaked Man</option>
+                        <option value="briar">Briar</option>
+                        <option value="cleanrot">Cleanrot</option>
+                        <option value="crucible_knight">Crucible Knight</option>
+                        <option value="drake_knight">Drake Knight</option>
+                        <option value="errant_sorcerer">Errant Sorcerer</option>
+                        <option value="godrick_soldier">Godrick Soldier</option>
+                        <option value="highwayman">Highwayman</option>
+                        <option value="iron_knight">Iron Knight</option>
+                        <option value="knight">Knight</option>
+                        <option value="redmane">Redmane</option>
+                        <option value="ronin">Ronin</option>
+                        <option value="samurai">Samurai</option>
+                        <option value="scaled_knight">Scaled Knight</option>
+                        <option value="war_surgeon">War Surgeon</option>
+                        <option value="white_reed">White Reed</option>
+                    </select>
+
+                    <label for="backgroundSelect" style="margin-top: 10px;">Select Background:</label>
+                    <select id="backgroundSelect" style="width: 200px;">
+                        <option value="battlecamp1">Battlecamp</option>
+                        <option value="castle1">Castle</option>
+                        <option value="chamber1">Chamber</option>
+                        <option value="landscape1">Landscape</option>
+                        <option value="ruins1">Ruins 1</option>
+                        <option value="ruins2">Ruins 2</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <img src="images/logo.png" style="width: 200px; height: 75px;">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
