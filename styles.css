@@ -54,6 +54,26 @@ h1 {
     height: 150px;
 }
 
+.logoImage {
+    width: 200px;
+    height: 75px;
+    border: 1px solid goldenrod;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 15px goldenrod;
+}
+
+.logoImage:hover {
+    border: 1px solid rgb(192, 146, 28);
+    box-shadow: 0 0 15px rgb(192, 146, 28);
+}
+
+.logoImage:active {
+    border: 1px solid maroon;
+}
+
 @media only screen and (max-width: 900px) {
     body {
         display: flex;
